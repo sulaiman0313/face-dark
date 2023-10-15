@@ -1,0 +1,143 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 118vh;
+    background: transparent;
+    background: black;
+    margin-top: -18px;
+    opacity: 0.8;
+    
+}
+.top{
+    display: flex;
+    margin: 15px ;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo{
+    color: #2463e9;
+    font-size: 50px;
+    margin-left: -900px;
+    margin-top: 35px;
+    
+}
+.inputSrch{
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+}
+#search{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(225, 225, 225, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    height: 70px;
+    padding: 10px 40px;
+    backdrop-filter: blur(4px) saturated(180%);
+}
+#search input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 600;
+    justify-content: center;
+}
+::placeholder{
+    color: whitesmoke;
+}
+.inputSrch button{
+    border: 0;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: rgba(110, 196, 218, 0.2);
+    opacity: 0.8;
+}
+.inputSrch button img{
+    width: 28px;
+}
+.otherlogo{
+    height: 10px;
+    width: 100px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.comment{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.bottom{
+    /* border: 2px solid white; */
+    height: 105vh;
+    display: flex;
+}
+.left{
+    /* border: 1px solid white; */
+    height: 100vh;
+    width: 40%;
+    border-radius: 45px;
+    background: rgba(116, 108, 108, 0.2);
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.right{
+    /* border: 1px solid white; */
+    height: 100vh;
+    width: 57%;
+    border-radius: 45px;
+    background: rgba(116, 108, 108, 0.2);
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.profile{
+    border: 1px solid red;
+    width: 90%;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 12px;
+    background: rgba(240, 240, 240, 0.2);
+    border-radius: 50px;
+    
+}
+.profileimg{
+    border: 2px solid greenyellow;
+   width: 60px;
+   height: 60px;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.profileimg h1{
+    margin-left: 80px;
+    margin-top: -15px;
+    color: azure;
+    
+}
+.btunn button {
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    margin-left: 400px;    
+    margin-top: -40px;
+    position: absolute;
+}
+.btunn img{
+    height: 30px;
+}
+
