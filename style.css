@@ -7,7 +7,7 @@
 }
 .container{
     width: 100%;
-    min-height: 118vh;
+    height: 150vh;
     background: transparent;
     background: black;
     margin-top: -18px;
@@ -86,7 +86,7 @@
 }
 .left{
     /* border: 1px solid white; */
-    height: 100vh;
+    height: 120vh;
     width: 40%;
     border-radius: 45px;
     background: rgba(116, 108, 108, 0.2);
@@ -95,7 +95,7 @@
 }
 .right{
     /* border: 1px solid white; */
-    height: 100vh;
+    height: 120vh;
     width: 57%;
     border-radius: 45px;
     background: rgba(116, 108, 108, 0.2);
@@ -140,4 +140,71 @@
 .btunn img{
     height: 30px;
 }
+.mid{
+    /* border: 1px solid rebeccapurple; */
+    height: 150px;
+    margin: 50px 20px 30px;
+}
+.zzz{
 
+    margin: 10px;
+}
+.zzz h2{
+    color: wheat;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-decoration: underline double;
+}
+.logos{
+    margin: 15px;
+}
+.logos button{
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+}
+.logos button img{
+    height: 25px;
+    background: rgba(0, 0, 0, 0.2);
+    width: 25px;
+    border-radius: 50%;
+}
+.last{
+    /* border: 2px solid white; */
+    margin: 30px 20px 30px;
+}
+.lasto{
+    margin: 10px;
+}
+.lasto h2{
+    color: wheat;
+    text-decoration: underline double white;
+}
+.shotlogo{
+    /* border: 1px solid green; */
+    margin: 20px;
+}
+.shotlogo ul{
+    list-style: none;
+    
+
+}
+.shotlogo ul li{
+    margin: 20px;
+    text-decoration: none;
+    
+}
+.shotlogo ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+span{
+    color: red;
+    margin: 15px;
+}
+.sett{
+    margin: 120px 50px;
+}
