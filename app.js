@@ -3,7 +3,8 @@
 const search=document.getElementsByClassName('nput')[0]
 
 
-const storydiv=document.getElementsByClassName('right1')[0]
+const storydiv=document.getElementsByClassName('postwritin')[0]
+
 
 const botmposst=document.getElementsByClassName('img')[0]
 
@@ -18,6 +19,7 @@ postbtn.addEventListener('click',()=>{
 
     const h2=document.createElement('h2')
 
+    h2.classList.add('hh2')
     h2.innerHTML=input;
 
     storydiv.appendChild(h2)
