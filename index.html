@@ -26,25 +26,16 @@
            <div class="inputSrch">
             <form action="" id="search">
                 
-                <input type="text" placeholder="Search Facebook" name="q">
+                <input type="text" class="nput" placeholder="Search Facebook" name="q">
                 
                 <button class="button">
                     <img src="search.png" alt="">
                 </button>
             </form>
 
-            <div class="otherlogo">
-                <button class="addme">
-                    <img src="addplus" alt="">
-                </button>
-                
-               </div>
+            
 
-            <div class="comment">
-                <button id="comment">
-                    <img src="commient fc" alt="">
-                </button>
-            </div>
+            
            </div>
 
            
@@ -116,24 +107,45 @@
                 <div class="right2">
                     <div class="inputsearch">
                         <form action="" id="srch">
-                            <input type="text" placeholder="What is in Your mind ?" name="q"/>
+                            <input type="text" class="poste" placeholder="What is in Your mind ?" name="q"/>
                             <button class="none"> Post</button>
                         </form>
                         <div class="line"></div>
                         <div class="like">
                             <ul class="coments">
                                 <li><a href="#"><i class="fa-solid fa-video"></i> <span class="zinc">Live Video</span></a></li>
-                                <li><a href="#"><i class="fa-solid fa-camera"></i> <span class="zinc">Photo</span></a></li>
-                                <li><a href="#"><i class="fa-regular fa-face-smile"></i> <span class="zinc">Feeling/Activity</span></a></li>
+                                
+                                <li><a href="#"><input type="file" id="photo" accept="image/*"><i class="fa-solid fa-camera"></i><label for="photo"> Photo</label></a></li>
+                                <li><a href="#"><i class="fa-regular fa-face-smile"></i><span class="zinc">Feeling/Activity</span></a></li>
                             </ul>
                         </div>
                        
                     </div>
                 </div>
-                <div class="right3"></div>
+                <div class="right3">
+                    
+                    <div class="img"></div>
+
+                    <div class="likebtn">
+                        <ul class="likebtnnn">
+                            <li><a href="#"><i class="fa-regular fa-thumbs-up"></i> Like</a></li>
+                            <li><a href="#"><i class="fa-regular fa-comment"></i> Comment</a></li>
+                            <li><a href="#"><i class="fa-solid fa-share"></i> Share</a></li>
+                        </ul>
+                    </div>
+                   
+                </div>
             </div>
         </div>
 </div>
+
+
+
+
+
+
+
+<script src="app.js"></script>
 </body>
 
 </html>

@@ -7,7 +7,7 @@
 }
 .container{
     width: 100%;
-    height: 150vh;
+    height: 180vh;
     background: transparent;
     background: black;
     margin-top: -18px;
@@ -23,7 +23,7 @@
 }
 .logo{
     color: #2463e9;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: -900px;
     margin-top: 35px;
     
@@ -35,16 +35,17 @@
 }
 #search{
     width: 100%;
-    max-width: 700px;
+    
     background: rgba(225, 225, 225, 0.2);
     display: flex;
     align-items: center;
     border-radius: 60px;
-    height: 70px;
+    height: 50px;
     padding: 10px 40px;
     backdrop-filter: blur(4px) saturated(180%);
 }
 #search input{
+    
     background: transparent;
     flex: 1;
     border: 0;
@@ -61,13 +62,13 @@
 .inputSrch button{
     border: 0;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     background: rgba(110, 196, 218, 0.2);
     opacity: 0.8;
 }
 .inputSrch button img{
-    width: 28px;
+    width: 15px;
 }
 .otherlogo{
     height: 10px;
@@ -81,13 +82,14 @@
 }
 .bottom{
     /* border: 2px solid white; */
+    margin-top: 30px;
     height: 105vh;
     display: flex;
 }
 .left{
     /* border: 1px solid white; */
-    height: 120vh;
-    width: 40%;
+    height: 100vh;
+    width: 25%;
     border-radius: 20px;
     background: rgba(116, 108, 108, 0.2);
     margin-top: 15px;
@@ -96,11 +98,11 @@
 .right{
     /* border: 1px solid white; */
    height: 120vh;
-   width: 57%;
+   width: 75%;
     display: flex;
     flex-direction: column;
     margin-left: 20px;  
-    margin-top: 10px;
+    margin-top: -5px;
 }
 .right1{
     /* border: 1px solid red; */
@@ -120,16 +122,18 @@
 }
 .right3{
     /* border: 1px solid red; */
-    height: 60vh;
-    width: 98%;
+    height: 120vh;
+    width: 75%;
     margin: 18px 8px;
     border-radius: 20px;
     background: rgba(116, 108, 108, 0.2);
+    background-size: cover;
+    background-position: center;
 }
 .profile{
     border: 1px solid red;
     width: 90%;
-    height: 80px;
+    height: 50px;
     margin-top: 30px;
     margin-left: 12px;
     background: rgba(240, 240, 240, 0.2);
@@ -138,31 +142,32 @@
 }
 .profileimg{
     border: 2px solid greenyellow;
-   width: 60px;
-   height: 60px;
+   width: 40px;
+   height: 40px;
     border-radius: 50%;
-    margin-left: 12px;
-    margin-top: 10px;
+    margin-left: 15px;
+    margin-top: 4px;
 }
 .profileimg h1{
-    margin-left: 80px;
-    margin-top: -15px;
+    margin-left: 60px;
+    margin-top: -18px;
     color: azure;
+    font-size: 20px;
     
 }
 .btunn button {
     border: none;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background: rgba(0, 0, 0, 0.2);
     opacity: 0.8;
-    margin-left: 400px;    
-    margin-top: -40px;
+    margin-left: 250px;    
+    margin-top: -30px;
     position: absolute;
 }
 .btunn img{
-    height: 30px;
+    height: 25px;
 }
 .mid{
     /* border: 1px solid rebeccapurple; */
@@ -177,22 +182,23 @@
     color: wheat;
     font-weight: 800;
     letter-spacing: 2px;
-    text-decoration: underline double;
+    /* text-decoration: underline double; */
+    font-size: 15px;
 }
 .logos{
     margin: 15px;
 }
 .logos button{
-    margin: 20px;
-    height: 50px;
-    width: 50px;
+    margin: 15px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.2);
 }
 .logos button img{
-    height: 25px;
+    height: 15px;
     background: rgba(0, 0, 0, 0.2);
-    width: 25px;
+    width: 15px;
     border-radius: 50%;
 }
 .last{
@@ -204,11 +210,12 @@
 }
 .lasto h2{
     color: wheat;
-    text-decoration: underline double white;
+    /* text-decoration: underline double white; */
+    font-size: 18px;
 }
 .shotlogo{
     /* border: 1px solid green; */
-    margin: 20px;
+    margin: 15px;
 }
 .shotlogo ul{
     list-style: none;
@@ -217,21 +224,22 @@
 }
 
 .shotlogo ul li{
-    margin: 30px;
+    margin: 20px;
     text-decoration: none;
     
 }
 .shotlogo ul li a{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
 }
 span{
     color: red;
     margin: 15px;
+    font-size: 15px;
 }
 .sett{
-    margin: 120px 50px;
+    margin-top: 80px;
 }
 /* .inputsearch{ */
     /* border: 1px solid beige; */
@@ -269,7 +277,8 @@ span{
     display: flex;
     margin-left: 100px;
     position: absolute;
-    margin-top: -60px;
+    margin-top: -40px;
+    margin-left: 190px;
 
 }
 .coments li{
@@ -285,7 +294,52 @@ span{
 .zinc{
     font-size: 15px;
 }
-.line{
+/* .line{
     border: 1px solid white;
-    margin: 30px;
+    margin: 20px;
+} */
+h2{
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+#photo{
+    display: none;
+}
+label{
+    color: red;
+    font-size: 15px;
+    margin: 10px;
+}
+.images{
+    height: 40vh;
+    width: 60%;
+    
+}
+.img{
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 45vh;
+    margin-left: 29%;
+    margin-top: 50px;
+}
+.likebtn{
+    /* border: 2px solid beige; */
+    display: flex;
+    /* margin: 50px; */
+}
+.likebtnnn {
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    display: flex;
+}
+.likebtnnn li{
+    margin-left: 140px;
+    list-style: none;
+    
+}
+.likebtnnn li a{
+    color: aliceblue;
+    text-decoration: none;
 }
